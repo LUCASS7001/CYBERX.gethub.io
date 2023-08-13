@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CYBER X - A Discord Bot</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- you can change the website icon by change the href link -->
+	<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1137224784736948295/1139039721738227722/Picsart_23-07-31_04-46-05-079.png">
+
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="./css/coloring.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/txtformatting.css">
+	<link rel="stylesheet" type="text/css" href="./css/shadow.css">
+	<link rel="stylesheet" type="text/css" href="./css/loading.css">
+	<!-- css end -->
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="on">
+	<div class="loading" id="loading-box">
+		<div class="loading-item"><div class="loading-progress"></div></div>
+	</div>
+
+	<main class="main">
+		<!-- navbar -->
+		<div class="navbar">
+			<div class="container">
+				<div class="navbar-nav">
+					<div class="navbar-brand">
+						<!-- You can change it with Image if you want. -->
+					</div>
+
+					<span class="navbar-toggler" id="toggler"><i onclick="toggleNavbar(this)" class="fas fa-bars"></i></span>
+
+					<div class="navs" id="navs">
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- navbar end -->		
+
+		<!-- jumbotron -->
+		<div class="jumbotron">
+			<div class="container">
+				<div class="jumbotron-items">
+					<div class="jumbotron-item">
+						<span class="jumbotron-t">Why CYBER X?</span>
+						<p class="jumbotron-d">Welcome to Cyber X, the cutting-edge Discord bot that brings advanced features and a touch of futuristic flair to your server. This bot is packed with powerful functionalities, intuitive controls, and a seamless user experience, making it the ultimate companion for all your server needs.</p>
+						<div class="jumbotron-buttons">
+							<button class="btn" onclick="location.href='#features'">Features</button>
+							<button class="btn blue" onclick="location.href='https://discord.com/api/oauth2/authorize?client_id=1109076213596692603&permissions=274877996040&scope=bot%20applications.commands'">Invite</button>
+						</div>
+					</div>
+					<div class="jumbotron-item">
+						<img src="https://cdn.discordapp.com/attachments/1137224784736948295/1139039721738227722/Picsart_23-07-31_04-46-05-079.png" alt="image">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- jumbotron end -->
+		<span class="scroll-down"><i class="fas fa-arrow-down"></i></span>
+	</main>
+
+	<!-- features -->
+	<div class="features-box">
+		<h1 class="features-t" id="features">We are provide the best.</h1>
+		<div class="container">
+			<div class="features">
+				<div class="feature">
+					<img class="feature-img" src="https://cdn.discordapp.com/attachments/1137224784736948295/1140241673193001040/Picsart_23-08-13_14-12-46-397.png"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">Feature 1</h2>
+						<p class="feature-info-d">Advanced Moderation System: Keep your server harmonious and safe with Cyber X's state-of-the-art moderation system. Set custom rules, enforce guidelines, and prevent disruptive behavior effortlessly.</p>
+					</div>
+				</div>
+				<div class="feature">
+					<img class="feature-img" src="https://cdn.discordapp.com/attachments/1135365497320394825/1140381285232152726/20230813_232746.png"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">Feature 2</h2>
+						<p class="feature-info-d">Intelligent Context Menus: Elevate your server's efficiency with context menus that offer quick and smart actions on messages and users. Interacting with your community has never been smoother.</p>
+					</div>
+				</div>
+				<div class="feature">
+					<img class="feature-img" src="https://cdn.discordapp.com/attachments/1135365497320394825/1140382061593632788/20230813_233101.png"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">Feature 3</h2>
+						<p class="feature-info-d">Immersive Minigames: Immerse your members in engaging minigames that foster camaraderie and fun. From interactive trivia to captivating virtual currency systems, Cyber X has a wide array of entertainment options.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- features end -->
+
+	<!-- services -->
+	<div class="services-box">
+		<h1 class="services-t" id="services">We currently services...</h1>
+		<div class="container">
+			<div class="services">
+				<div class="service">
+					<span><i class="fas fa-server"></i> 500+ servers</span>
+				</div>
+				<div class="service">
+					<span><i class="fas fa-users"></i> 100.000+ users</span>
+				</div>
+				<div class="service">
+					<span><i class="fas fa-hashtag"></i> 190.000+ channels</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- services end -->
+
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-items">
+				<div class="footer-item">
+					<span>Partners</span>
+					<ul class="footer-ul">
+						<li><a href="#">Soon</a></li>
+					</ul>
+				</div>				
+				<div class="footer-item">
+					<span>Connect Us</span>
+					<ul class="footer-ul">
+						<li><a href="https://discord.gg/4tHdFJxPhb">Discord</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
